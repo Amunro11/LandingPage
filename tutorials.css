@@ -1,0 +1,82 @@
+html {
+  background-color: gray; /* For browsers that do not support gradients */
+  background-image: linear-gradient(black, gray);
+}
+
+.container {
+  position: relative;
+  margin: auto;
+  height: 100%;
+  width: 95%;
+}
+
+.title-bar {
+  padding: 20px;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 80px;
+}
+
+.home a{
+  border-radius: 10px;
+  background-color: lightgray;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  transition: ease-in-out .3s;
+  width:fit-content ;
+}
+  
+.home a:hover, a:active {
+  background-color: slategrey;
+  color: white;
+}
+
+.tutorial-links div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 30px;
+}
+
+.tutorials {
+  padding: 20%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+
+.tutorials a {
+  border-radius: 10px;
+  background-color: slategrey;
+  padding: 15px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: bold;
+  transition: ease-in-out .5s;
+}
+
+.tutorials a:hover {
+  color: white;
+  font-size: 35px;
+}

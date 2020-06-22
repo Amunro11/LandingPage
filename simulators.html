@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects and Simulators</title>
+    <link rel="stylesheet" href="simulators.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-bar">
+            <div class="home">
+                <a href="index.html">Home</a>
+                <a href="tutorials.html">Tutorials</a>
+            </div>  
+        </div>  
+        <h1>Simulators</h1>
+        <div class="project-links">
+            <div class="projects">
+                <a href="https://amunro11.github.io/Ground-Fault-Detection-Lights-Simulator/">Ground Fault Indicator <br> lights simulator</a>
+                <div class="buttons">
+                    <button id="Button2" onclick="click1()">INFO</button>
+                </div>
+            </div>
+            <div class="projects">
+                <a href="https://amunro11.github.io/Voltage-Drop-Simulator/">Voltage Drop Simulator</a>
+                <div class="buttons">
+                    <button id="Button1" onclick="click2()">INFO</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+
+
+<script>
+
+function click1(){
+    alert (msg1)
+}
+
+function click2(){
+    alert (msg2)
+}
+
+var msg1 = "This simulator demonstrates how ground fault indicator lights work to detect a fault on a system that is not referenced to ground" + 
+" This type of system is commonly called a floating system."
+
+var msg2 = "This interactive simulator allows you to experience the effect of running a wire over a varying distance." + 
+" Control paramaters such as distance, current, wire gauge and source voltage. See the results in real time."
+
+</script>
+
+
+</html>
